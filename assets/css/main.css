@@ -2523,7 +2523,7 @@ input, select, textarea {
 		border: 0;
 		color: #ffffff !important;
 		cursor: pointer;
-		display: inline-block;
+		display: block !important;
 		font-weight: 700;
 		height: 2.75em;
 		line-height: 2.75em;
@@ -2621,6 +2621,31 @@ input, select, textarea {
 			background-color: #ada69b;
 			color: #ffffff !important;
 		}
+
+		input[type="submit"].haverford,
+		input[type="reset"].haverford,
+		input[type="button"].haverford,
+		.button.haverford {
+			background-color: #8B0000;
+			color: #ffffff !important;
+		}
+
+		input[type="submit"].bmc,
+		input[type="reset"].bmc,
+		input[type="button"].bmc,
+		.button.bmc {
+			background-color: #03335f;
+			color: #ffffff !important;
+		}
+
+		input[type="submit"].swarthmore,
+		input[type="reset"].swarthmore,
+		input[type="button"].swarthmore,
+		.button.swarthmore {
+			background-color: #631919;
+			color: #ffffff !important;
+		}
+		
 
 			input[type="submit"].primary:hover,
 			input[type="reset"].primary:hover,
