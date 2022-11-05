@@ -125,7 +125,7 @@
 			$titleBar = $(
 				'<div id="titleBar">' +
 					'<a href="#header" class="toggle"></a>' +
-					// '<span class="title">' + $('#logo').html() + '</span>' + //Commenting this out gets rid of the rest of the bar
+					'<span class="title">' + $('#logo').html() + '</span>' +
 				'</div>'
 			)
 				.appendTo($body);
@@ -138,7 +138,7 @@
 					hideOnSwipe: true,
 					resetScroll: true,
 					resetForms: true,
-					side: 'right',
+					side: 'left',
 					target: $body,
 					visibleClass: 'header-visible'
 				});
